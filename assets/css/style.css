@@ -1,3 +1,32 @@
 header {
-    background-image: url("Profile.jpg");
+    background-color: #ffffff;
+    height: 93px;
+    margin-bottom: 40px;
+    border: 1px solid #cccccc;
 }
+
+#topscreen {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 1px;
+    height: 91px;
+    width: 252px;
+    float: left;
+    text-align: center;
+    margin-left: 219px;
+}
+
+
+#index {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 498 px;
+    width: 960 px;
+}
+
