@@ -1,5 +1,3 @@
-/* Universal */
-
 header {
     background-color: #ffffff;
     height: 93px;
@@ -102,14 +100,6 @@ footer {
 #profile-picture {
     float: left;
     margin-right: 3px;
-}
-
-
-/* portfolio.HTML */
-
-#portfolio {
-    margin: 0;
-    padding: 0;
 }
 
 
