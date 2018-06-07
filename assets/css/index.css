@@ -1,6 +1,9 @@
+/* Universal */
+
 header {
     background-color: #ffffff;
     height: 93px;
+    margin-top: 2px;
     margin-bottom: 40px;
     border-bottom: 2px solid #cccccc;
 }
@@ -18,15 +21,19 @@ header {
 }
 
 .links {
-    float: right;
-    text-align: right;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 185px;
+    position: absolute;
+    right: 200px;
+    top: 40px;
 }
 
 a {
     font-size: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
+}
+
+p {
+    font-size: 16px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -47,9 +54,7 @@ a {
     float: left;
     width: 33%;
 }
-a {
-    color: #cccccc;
-}
+
 
 footer {
     background-color: #666666;
@@ -61,6 +66,13 @@ footer {
     color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+#copyright {
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* index.HTML */
 
 #index {
     background-image: url("../images/dust.png");
@@ -92,10 +104,8 @@ footer {
     margin-right: 3px;
 }
 
-#contact {
-    margin: 0;
-    padding: 0;
-}
+
+/* portfolio.HTML */
 
 #portfolio {
     margin: 0;
